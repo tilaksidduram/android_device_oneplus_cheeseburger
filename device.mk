@@ -39,8 +39,6 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Prebuilt apps
 PRODUCT_PACKAGES += \
-   OnePlusCamera \
-   OnePlusCameraService \
    OnePlusGallery \
 
 # Audio
