@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/cheeseburger/device.mk)
 
 # Inherit some common Havoc stuff.
-$(call inherit-product, vendor/havoc/products/common.mk)
+$(call inherit-product, vendor/havoc/config/common.mk)
 
 PRODUCT_NAME := havoc_cheeseburger
 PRODUCT_DEVICE := cheeseburger
