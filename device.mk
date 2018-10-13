@@ -23,8 +23,6 @@
 #
 
 $(call inherit-product, vendor/oneplus/cheeseburger/cheeseburger-vendor.mk)
-$(call inherit-product, vendor/havoc/config/phone-xxhdpi-4096-dalvik-heap.mk)
-$(call inherit-product, vendor/havoc/config/phone-xxhdpi-2048-hwui-memory.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
